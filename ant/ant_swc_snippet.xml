@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+	<template autoinsert="true" context="org.eclipse.ant.ui.templateContextType.target" deleted="false" description="creates a swc" enabled="true" name="fdt_create_swc">
+		<target name="${name_of_swc_task}">
+	    <fdt.launch.library projectname="${name_of_project}" target="${out_put_swc}" />
+      </target>
+  </template>
+</templates>
